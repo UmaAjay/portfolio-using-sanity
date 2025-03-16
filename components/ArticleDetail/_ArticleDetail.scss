@@ -1,0 +1,136 @@
+.article_page {
+  .blog-flex {
+    display: flex;
+    gap: 20px;
+
+    .blog-section {
+      flex: 6;
+      @include m-breakpoint-down(medium) {
+        width: 90vw;
+      }
+    }
+
+    aside {
+      flex: 3;
+      position: relative;
+
+      .ads-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      @include m-breakpoint-down(lmedium) {
+        display: none;
+      }
+    }
+  }
+
+  .separator {
+    margin-top: 3rem;
+  }
+  .container_x_sm {
+    @include m-breakpoint-down(small) {
+      padding: 0;
+    }
+  }
+  .breadcrumb {
+    margin-bottom: 1rem;
+    font-size: 14px;
+    opacity: 0.8;
+    .item {
+      cursor: pointer;
+    }
+  }
+  &--header {
+    margin-bottom: 2rem;
+
+    .title {
+      font-size: $fs-500;
+      line-height: 50px;
+
+      @include m-breakpoint-down(small) {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+
+    .created_date {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  }
+
+  .categories {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    .category {
+      font-size: 18px;
+      padding: 5px 15px;
+      background-color: $light-color;
+      display: inline-block;
+      border-radius: 9999px;
+
+      @include m-breakpoint-down(small) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .title_image {
+    margin-bottom: 2rem;
+  }
+
+  .title_image img {
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  .share_banner {
+    display: flex;
+    margin: 2rem 0;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    @include m-breakpoint-down(small) {
+      flex-direction: column;
+    }
+    p {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .icons {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      flex-wrap: wrap;
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+.dark {
+  .article_page {
+    .breadcrumb {
+      .route {
+        color: $light-color;
+      }
+    }
+    .categories {
+      .category {
+        background-color: #2d3a47;
+        color: $light-color;
+      }
+    }
+  }
+}

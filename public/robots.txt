@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://tenyain.com
+
+# Sitemaps
+Sitemap: https://tenyain.com/sitemap.xml

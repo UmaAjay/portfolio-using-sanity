@@ -1,0 +1,24 @@
+.credit-section {
+  margin: 5rem 0;
+  @include flex-center;
+
+  .thankYou_ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.865rem;
+
+    @include m-breakpoint-down(small){
+      font-size: 14px;
+    }
+  }
+
+  a {
+    color: $primary-color !important;
+  }
+}
+
+.dark .credit-section {
+  a {
+    color: $accent-color !important;
+  }
+}

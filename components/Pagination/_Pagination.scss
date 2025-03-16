@@ -1,0 +1,44 @@
+.pagination_wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    @include flex-center;
+  }
+
+  .paginate_btn {
+    border-radius: 10px;
+    box-shadow: rgb(178, 178, 178 , 30%) 0px 0px 0px 3px;
+  }
+
+  .page_numbers {
+    display: flex;
+    gap: 10px;
+
+    &--item {
+      width: 25px;
+      height: 25px;
+      @include flex-center;
+      background-color: #2d3a47;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+
+    .active {
+      background-color: $primary-color;
+    }
+  }
+}
+
+.dark {
+  .pagination_wrapper {
+    .page_numbers {
+      .active {
+        background-color: $accent-color;
+      }
+    }
+  }
+}

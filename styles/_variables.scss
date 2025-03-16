@@ -1,0 +1,44 @@
+@function calUni($e) {
+  @return ($e / 16px) + rem;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../fonts/NotoSansMyanmarUI.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: MyanmarSabae;
+  src: url(../fonts/MyanmarSabae.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Z06Walone;
+  src: url(../fonts/Z06Walone.ttf);
+  font-display: swap;
+  /* Copyright ZINBO - I am allowed to use this font. - Please buy this font at https://www.facebook.com/profile.php?id=100076104782520 */
+}
+
+// Font families
+$font-title: 'Kanit', MyanmarSabae, sans-serif;
+// $font-primary: 'Karla', sans-serif;
+$font-primary: "Inter", Z06Walone, sans-serif;
+$font-writing: "Berkshire Swash", cursive;
+
+// Colors
+$primary-color: #1192d3;
+$dark-color: #3a4856;
+$light-color: #e5e5e5;
+$accent-color: #2fe0ac;
+$white: #ffffff;
+$dark-primary-color: #002659;
+$warning-color: #e59d23;
+
+// Font sizes
+$fs-100: calUni(18px);
+$fs-200: calUni(20px);
+$fs-300: calUni(24px);
+$fs-400: calUni(36px);
+$fs-500: calUni(48px);

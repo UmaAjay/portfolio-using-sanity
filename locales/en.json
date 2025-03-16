@@ -1,0 +1,42 @@
+{
+  "home_line_1": "Hello there, I am",
+  "first_name": "Uma Ajay",
+  "frontend": "Full-stack",
+  "developer": "Developer & Blockchain Expert",
+  "home_description": "A developer who builds high-performance web applications, AI-driven solutions, and blockchain technologies. I am committed to solving real-world problems with scalable and efficient solutions.",
+  "view_works": "View My Work",
+
+  "Home": "Home",
+  "About": "About",
+  "Works": "Projects",
+  "Writing": "Blog",
+  "Services": "Services",
+  "Contact": "Contact",
+
+  "projects": "Projects",
+  "view_all_works": "View All Projects",
+  "Sanjeev Tech": "Sanjeev Tech",
+  "Blockchain-Powered Solutions for Business Growth": "Blockchain-Powered Solutions for Business Growth",
+
+  "View Project": "View Project",
+  "view detail": "View Details",
+  "AI Integration": "AI Integration",
+  "Developing AI-driven applications for automation and data insights.": "Developing AI-driven applications for automation and data insights.",
+  "Fintech Solutions": "Fintech Solutions",
+  "Building secure, scalable, and reliable fintech applications leveraging blockchain and AI.": "Building secure, scalable, and reliable fintech applications leveraging blockchain and AI.",
+
+  "What they say": "What They Say",
+  "skills": "Skills",
+  "skill_description": "I provide end-to-end full-stack development, blockchain solutions, and AI-powered automation services to help businesses scale and innovate.",
+  "view_services": "View Services",
+  "get_in_touch": "Get In Touch",
+  "your_name": "Your Name",
+  "your_email": "Your Email",
+  "your_message": "Your Message",
+  "send_message": "Send Message",
+  "sending": "Sending...",
+  "form_complete": "Please complete all fields.",
+  "thank_you_contact": "Thank you for reaching out! 🤩",
+  "soon_contact": "I will get back to you soon...",
+  "motto": "If I cannot build a wall today, I will lay a brick every day until it becomes a wall."
+}
